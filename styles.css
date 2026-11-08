@@ -1,0 +1,311 @@
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:85px}body{margin:0;background:#070707;color:#f2f2f2;font-family:Inter,Arial,sans-serif;font-size:14px;line-height:1.55;-webkit-font-smoothing:antialiased}a{color:inherit;text-decoration:none}a:hover{color:#fff}.navbar{height:64px;padding:0 max(5.5vw,28px);display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #242424;background:rgba(7,7,7,.92);position:sticky;top:0;z-index:20;backdrop-filter:blur(14px)}.brand{font-size:17px;font-weight:700;letter-spacing:-.4px}.nav-links{display:flex;align-items:center;gap:clamp(14px,2.2vw,34px);font-size:13px;color:#c6c6c6}.nav-links a{transition:color .2s}.resume-button{border:1px solid #444;border-radius:9px;padding:8px 13px;color:#eee}.resume-button span{margin-left:4px}.menu-toggle{display:none;background:none;color:white;border:1px solid #333;border-radius:8px;padding:7px 10px;font-size:18px}.section-wrap{width:min(1500px,89%);margin-inline:auto}.hero{position:relative;min-height:390px;display:flex;align-items:center;gap:clamp(38px,5vw,90px);padding:48px 5.2% 54px;overflow:hidden}.hero-photo-wrap{flex:0 0 clamp(190px,17vw,280px);position:relative;z-index:1}.hero-photo{display:block;width:100%;aspect-ratio:3/4;object-fit:cover;object-position:center 34%;border-radius:20px;border:1px solid #333;box-shadow:0 15px 40px #0008}.hero-content{position:relative;z-index:1;flex:1;min-width:0}.eyebrow{font-size:11px;letter-spacing:2px;text-transform:uppercase;color:#777;margin:0 0 12px}.hero h1{font-size:clamp(48px,5.5vw,88px);line-height:1.05;letter-spacing:-.065em;margin:0 0 14px;font-weight:700;white-space:nowrap}.period{color:#777}.hero-specialties{font-size:clamp(15px,1.35vw,20px);color:#c2c2c2;margin:0 0 18px}.hero-specialties span{color:#666;padding:0 4px}.location{color:#a5a5a5;margin:0 0 20px}.pin{font-size:19px;margin-right:8px}.socials{display:flex;gap:12px}.socials a{width:46px;height:46px;display:grid;place-items:center;border:1px solid #303030;border-radius:12px;background:#0b0b0b;color:#eee;font-size:19px;font-weight:600;transition:transform .2s,border-color .2s}.socials a:hover{transform:translateY(-3px);border-color:#777}.socials svg{width:21px;height:21px}.hero-glow{position:absolute;inset:0;pointer-events:none;background:radial-gradient(ellipse at 75% 40%,#24272a 0%,#121314 28%,transparent 66%);opacity:.75}.section-divider{border-top:1px solid #303030}.two-column{display:grid;grid-template-columns:1.35fr 1fr;gap:42px;padding:30px 2.2%}.two-column article+article{border-left:1px solid #333;padding-left:42px}h2{font-size:23px;letter-spacing:-.045em;margin:0 0 13px;font-weight:650}h3{font-size:15px;font-weight:600;letter-spacing:-.02em;margin:0}p{margin:0;color:#bcbcbc}.about-block p{max-width:820px;color:#c1c1c1}.education-block .entry+.entry{margin-top:12px}.entry-heading{display:flex;align-items:flex-start;justify-content:space-between;gap:15px}.entry-heading span{color:#999;white-space:nowrap;font-size:13px}.entry p{font-size:13px;color:#a9a9a9}.entry p b,.muted b{color:#777;margin:0 3px}.experience-projects{grid-template-columns:1.15fr 1fr;padding-top:28px;padding-bottom:30px}.experience-card{display:grid;grid-template-columns:125px 1fr;gap:24px}.isro-mark{border-right:1px solid #383838;display:flex;justify-content:center;align-items:center;min-height:155px;padding:8px 18px}.isro-logo{display:block;width:112px;height:112px;object-fit:contain;border-radius:50%;}.experience-copy .muted{font-size:13px;margin:2px 0 6px}.experience-copy ul,.project-details ul{padding-left:18px;margin:5px 0;color:#bcbcbc;font-size:13px;line-height:1.5}.project-list{display:flex;flex-direction:column}.project{border-bottom:1px solid #252525}.project:first-child{border-top:1px solid #252525}.project summary{cursor:pointer;list-style:none;display:flex;justify-content:space-between;gap:16px;padding:12px 0;color:#d4d4d4}.project summary::-webkit-details-marker{display:none}.project summary:hover{color:white}.arrow{color:#999;font-size:17px}.project[open] .arrow{transform:rotate(45deg)}.project-details{padding:0 0 17px 8px}.project-details p{font-size:13px;margin-bottom:5px}.project-details ul{margin-top:3px}.stack{color:#858585!important;font-size:12px!important;margin:8px 0!important}.text-link{display:inline-block;color:#ddd;text-decoration:underline;text-underline-offset:3px;font-size:12px;margin-top:3px}.bottom-grid{display:grid;grid-template-columns:1.25fr 1.25fr .75fr;padding:28px 2.2%;gap:28px}.bottom-grid article+article{border-left:1px solid #333;padding-left:28px}.publication{display:grid;grid-template-columns:22px 1fr 15px;gap:10px;align-items:start;padding:7px 0}.doc-icon{color:#aaa;font-size:18px}.publication h3{font-size:12px;line-height:1.45;font-weight:500}.publication p{font-size:11px;color:#888}.pub-arrow{color:#aaa}.skill-row{display:grid;grid-template-columns:25% 75%;gap:15px;align-items: start; padding:3px 0;font-size:12px}.skill-row span{color:#aaa}.skill-row p{font-size:12px;color:#c7c7c7}.contact-heading{font-size:14px;margin-bottom:5px}.contact article p,.bottom-grid article>p{font-size:13px}.contact-socials{margin-top:14px}.contact-socials a{width:40px;height:40px}.email-link{display:inline-block;color:#aaa;font-size:11px;margin-top:10px}.footer{border-top:1px solid #282828;padding:18px 2.2%;display:flex;justify-content:space-between;color:#777;font-size:11px}.muted{color:#999!important}
+@media(min-width:1500px){.hero{min-height:440px}.hero-photo-wrap{flex-basis:270px}.hero h1{font-size:88px}}
+@media(max-width:1050px){.navbar{padding-inline:5.5%}.nav-links{gap:14px}.hero{padding-inline:3%;gap:35px}.hero h1{white-space:normal}.two-column{gap:28px}.two-column article+article{padding-left:28px}.experience-card{grid-template-columns:95px 1fr;gap:18px}.bottom-grid{grid-template-columns:1fr 1fr}.bottom-grid article:last-child{grid-column:1/-1;border-left:0;border-top:1px solid #333;padding:22px 0 0}.hero-photo-wrap{flex-basis:220px}}
+@media(max-width:760px){.navbar{height:60px}.menu-toggle{display:block}.nav-links{display:none;position:absolute;top:59px;left:0;right:0;background:#080808;border-bottom:1px solid #333;padding:18px 6%;flex-direction:column;align-items:stretch;gap:0}.nav-links.open{display:flex}.nav-links a{padding:12px 0}.resume-button{width:max-content}.section-wrap{width:90%}.hero{padding:38px 0 42px;min-height:0;gap:24px;align-items:center}.hero-photo-wrap{flex-basis:135px}.hero-photo{border-radius:14px}.eyebrow{font-size:9px}.hero h1{font-size:clamp(32px,8vw,52px);white-space:normal}.hero-specialties{font-size:13px;line-height:1.5}.location{font-size:12px;margin-bottom:13px}.socials{gap:8px}.socials a{width:36px;height:36px;border-radius:9px}.socials svg{width:17px;height:17px}.two-column,.experience-projects{grid-template-columns:1fr;padding:24px 0;gap:24px}.two-column article+article{border-left:0;border-top:1px solid #333;padding:22px 0 0}.experience-card{grid-template-columns:76px 1fr;gap:14px}.isro-mark{min-height:120px}.isro-logo{width:88px;height:88px}.isro-mark strong{font-size:17px}.isro-orbit{font-size:32px}.experience-copy ul{font-size:12px}.bottom-grid{grid-template-columns:1fr;padding:24px 0;gap:22px}.bottom-grid article+article,.bottom-grid article:last-child{grid-column:auto;border-left:0;border-top:1px solid #333;padding:22px 0 0}.skill-row{grid-template-columns:42% 1fr}.footer{width:90%;padding-inline:0;gap:10px;flex-wrap:wrap}.entry-heading{flex-direction:column;gap:2px}.entry-heading span{font-size:11px}}
+@media(max-width:420px){.hero{align-items:flex-start;gap:16px}.hero-photo-wrap{flex-basis:105px}.hero h1{font-size:30px}.hero-specialties{font-size:11px}.hero-specialties span{padding:0 1px}.hero-content{padding-top:4px}.socials a{width:32px;height:32px}.experience-card{grid-template-columns:1fr}.isro-mark{border-right:0;border-bottom:1px solid #333;min-height:76px;justify-content:flex-start}.isro-logo{width:68px;height:68px}.skill-row{grid-template-columns:1fr;gap:0}.skill-row p{margin-bottom:4px}}
+/* =====================================
+   Technical Skills + Publications
+===================================== */
+
+.portfolio-top-grid {
+    display: grid;
+    grid-template-columns: 1.2fr 0.8fr;
+    align-items: stretch;
+    border-top: 1px solid #292929;
+    border-bottom: 1px solid #292929;
+}
+
+/* Compact section spacing */
+
+.skills-section,
+.publications-section {
+    padding: 24px 30px;
+    min-width: 0;
+}
+
+/* Section headings */
+
+.portfolio-bottom h2 {
+    font-size: 25px;
+    font-weight: 600;
+    letter-spacing: -0.6px;
+    margin: 0 0 18px;
+}
+
+/* =====================================
+   Technical Skills
+===================================== */
+
+.skills-list {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+}
+
+.skill-row {
+    display: grid;
+    grid-template-columns: 34% 66%;
+    gap: 12px;
+    align-items: start;
+}
+
+.skill-row span,
+.skill-row p {
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+.skill-row span {
+    color: #a5a5a5;
+}
+
+.skill-row p {
+    margin: 0;
+    color: #dedede;
+}
+
+/* =====================================
+   Research Publications
+===================================== */
+
+.publications-section {
+    border-left: 1px solid #292929;
+}
+
+.publication-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.publication-item {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    transition: opacity 0.2s ease;
+}
+
+.publication-item:hover {
+    opacity: 0.7;
+}
+
+.publication-item h3 {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.5;
+    margin: 0 0 4px;
+}
+
+.publication-item p {
+    font-size: 12px;
+    color: #858585;
+    margin: 0;
+}
+
+/* =====================================
+   Responsive
+===================================== */
+
+@media (max-width: 1000px) {
+    .portfolio-top-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .skills-section,
+    .publications-section {
+        padding: 22px;
+    }
+
+    .skill-row {
+        grid-template-columns: 1fr;
+        gap: 3px;
+    }
+}
+
+@media (max-width: 700px) {
+    .portfolio-top-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .publications-section {
+        border-left: none;
+        border-top: 1px solid #292929;
+    }
+
+    .skills-section,
+    .publications-section {
+        padding: 24px 18px;
+    }
+
+    .portfolio-bottom h2 {
+        font-size: 23px;
+    }
+
+    .skill-row {
+        grid-template-columns: 1fr;
+        gap: 3px;
+    }
+}
+
+/* =====================================
+   Contact Section
+===================================== */
+
+.contact-section {
+    width: 100%;
+    padding: 32px 0 20px;
+    border-top: 1px solid #292929;
+    color: #f5f5f5;
+}
+
+/* Header */
+
+.contact-header {
+    margin-bottom: 26px;
+}
+
+.contact-header h2 {
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: -0.8px;
+    margin: 0 0 8px;
+}
+
+.contact-header p {
+    font-size: 14px;
+    color: #888;
+    margin: 0;
+}
+
+/* Main content */
+
+.contact-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    padding-bottom: 30px;
+}
+
+/* Description */
+
+.contact-description h3 {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0 0 10px;
+}
+
+.contact-description p {
+    max-width: 700px;
+    font-size: 14px;
+    line-height: 1.8;
+    color: #aaa;
+    margin: 0;
+}
+
+/* Contact links */
+
+.contact-actions {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 14px;
+}
+
+.contact-socials {
+    display: flex;
+    gap: 12px;
+}
+
+.contact-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 44px;
+    height: 44px;
+
+    border: 1px solid #303030;
+    border-radius: 10px;
+
+    color: #f5f5f5;
+    font-size: 17px;
+    font-weight: 500;
+
+    text-decoration: none;
+
+    transition:
+        background 0.2s ease,
+        border-color 0.2s ease,
+        transform 0.2s ease;
+}
+
+.contact-icon:hover {
+    background: #181818;
+    border-color: #555;
+    transform: translateY(-2px);
+}
+
+/* Email */
+
+.contact-email {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+    color: #aaa;
+    font-size: 14px;
+    text-decoration: none;
+
+    transition: color 0.2s ease;
+}
+
+.contact-email:hover {
+    color: #fff;
+}
+
+/* Footer */
+
+.contact-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-top: 18px;
+    border-top: 1px solid #242424;
+
+    color: #666;
+    font-size: 12px;
+}
+
+/* =====================================
+   Responsive
+===================================== */
+
+@media (max-width: 700px) {
+
+    .contact-section {
+        padding-top: 26px;
+    }
+
+    .contact-header h2 {
+        font-size: 24px;
+    }
+
+    .contact-content {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 24px;
+    }
+
+    .contact-actions {
+        align-items: flex-start;
+    }
+
+    .contact-footer {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+    }
+
+}
